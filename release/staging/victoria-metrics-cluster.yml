@@ -5,7 +5,7 @@ metadata:
   name: victoria-metrics-cluster
   namespace: monitoring
 spec:
-releaseName: victoria-metrics-cluster
+  releaseName: victoria-metrics-cluster
   chart:
     repository: https://victoriametrics.github.io/helm-charts/
     name: victoria-metrics-cluster
