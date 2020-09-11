@@ -4,7 +4,6 @@ releaseName: victoria-metrics-cluster
     name: victoria-metrics-cluster
     version: 0.6.5
   values:
-   global:
       clusterDomainSuffix: cluster.local
       printNotes: true
       imagePullSecrets: []
