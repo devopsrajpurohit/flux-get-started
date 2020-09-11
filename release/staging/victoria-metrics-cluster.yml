@@ -1,5 +1,10 @@
-
-
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  # release renamed from prometheus -> prometheus-operator
+  name: victoria-metrics-cluster
+  namespace: monitoring
+spec:
 releaseName: victoria-metrics-cluster
   chart:
     repository: https://victoriametrics.github.io/helm-charts/
